@@ -49,6 +49,8 @@ def main():
             
             # Display frame
             stframe.image(annotated_frame, channels="RGB", use_column_width=True)
+            
+            time.sleep(0.5)
         
         cap.release()
     else:
