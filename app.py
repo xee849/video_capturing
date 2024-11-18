@@ -1,8 +1,8 @@
-import cv2
+from ultralytics import YOLO
 import numpy as np
 import tempfile
-from ultralytics import YOLO
 import streamlit as st
+import cv2
 
 # Load YOLOv8 model
 model = YOLO('best.pt')
