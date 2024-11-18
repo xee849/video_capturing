@@ -1,8 +1,9 @@
 import streamlit as st
+from ultralytics import YOLO
 import cv2
 import tempfile
 import os
-from ultralytics import YOLO
+
 
 # Title of the app
 st.title("Object Detection with YOLOv8")
