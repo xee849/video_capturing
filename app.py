@@ -31,7 +31,7 @@ def main():
         
         stframe = st.empty()  # Placeholder for the video stream
         fps = cap.get(cv2.CAP_PROP_FPS)  # Get the original frame rate of the video
-        frame_interval = int(fps // 3) 
+        frame_interval = int(fps // 5) 
         
         frame_count = 0
         while cap.isOpened():
